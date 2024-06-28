@@ -19,6 +19,7 @@
     font-size: 2rem;
     margin-top: -1rem;
     cursor: default;
+    text-align: center;
 }
   
 @media only screen and (max-width: 480px){
