@@ -51,18 +51,6 @@ body{
   }
 }
 
-@media only screen and (max-width: 768px){
-  nav{
-    padding: 1rem 2rem;
-  }
-
-  .nav-button-container{
-    list-style: none;
-    display: flex;
-    gap: 3rem;
-  }
-}
-
 @media only screen and (max-width: 480px){
   .nav-container{
     padding: 1rem 2rem;
@@ -71,6 +59,10 @@ body{
   .nav-button-container{
     gap: 2rem;
     margin-left: auto;
+  }
+
+  .nav-button{
+    font-size: 1rem;
   }
 }
 
