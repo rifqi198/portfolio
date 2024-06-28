@@ -1,0 +1,49 @@
+.contact-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.contact-title{
+    font-size: 4rem;
+    margin: 0;
+}
+  
+.contact-detail{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+  
+.social-media-title{
+    font-size: 2.5rem;
+}
+  
+.social-media-container{
+    display: flex;
+    gap: 3rem;
+}
+
+@media only screen and (max-width: 480px){
+    .contact-title{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-detail{
+        margin: 0.8rem 0rem;
+    }
+
+    .social-media-title{
+        font-size: 1.5rem;
+    }
+
+    .social-media-container{
+        gap: 1rem;
+    }
+
+    .social-media{
+        width: 50%;
+    }
+}

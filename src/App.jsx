@@ -1,7 +1,7 @@
-import Main from './component/Main'
-import About from './component/About'
-import Project from './component/Project';
-import Contact from './component/Contact';
+import Main from './component/Main/Main'
+import About from './component/About/About'
+import Project from './component/Project/Project';
+import Contact from './component/Contact/Contact';
 import './App.css'
 import { useRef } from 'react';
 
@@ -29,14 +29,14 @@ function App() {
 
   return (
     <>
-      <nav>
+      <div className='nav-container'>
         <img src='/logo.svg' alt='logo' className='logo' onClick={scrollToMain}/>
         <ul className='nav-button-container'>
           <li className='nav-button' onClick={scrollToAbout}>About</li>
           <li className='nav-button' onClick={scrollToProject}>Project</li>
           <li className='nav-button' onClick={scrollToContact}>Contact</li>
         </ul>
-      </nav>
+      </div>
       <section ref={mainRef}>
         <Main />
       </section>

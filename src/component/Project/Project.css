@@ -1,0 +1,133 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+  
+.project-title{
+    font-size: 4rem;
+    cursor: default;
+}
+  
+.project-card{
+    display: flex;
+    width: 70%;
+    padding: 3rem;
+}
+  
+.project-detail{
+    margin-left: 2rem;
+}
+  
+.project-title-container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+  
+.project-card-title{
+    font-size: 2rem;
+    cursor: default;
+}
+  
+.project-type{
+    font-size: 1.5rem;
+    background-color: #4C5991;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 400;
+    cursor: default;
+}
+  
+.project-description{
+    font-size: 1.5rem;
+    cursor: default;
+}
+  
+.project-link{
+    background-color: #4C5991;
+    color: #EEEBE3;
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+  
+.project-link:hover{
+    background-color: #8197F7;
+}
+
+@media only screen and (max-width: 1028px){
+    .project-image{
+        width: 50%;
+    }
+    
+    .project-card{
+        width: 100%;
+    }
+
+    .project-card-title{
+        font-size: 1.5rem;
+        cursor: default;
+    }
+  
+    .project-type{
+        font-size: 1.1rem;
+    }
+    
+    .project-description{
+        font-size: 1rem;
+        cursor: default;
+        margin: 0;
+    }
+  
+    .project-link{
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+}
+  
+@media only screen and (max-width: 480px){
+    .project-image{
+        width: 40%;
+    }
+    
+    .project-card{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .project-title-container{
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        row-gap: 0;
+    }
+
+    .project-card-title{
+        font-size: 1rem;
+        cursor: default;
+        text-wrap: nowrap;
+    }
+  
+    .project-type{
+        font-size: 1rem;
+    }
+    
+    .project-description{
+        font-size: 0.8rem;
+        cursor: default;
+        margin: 0;
+    }
+  
+    .project-link{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}
